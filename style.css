@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0px;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+ }
+ .container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+ }
+
+ .welcome {
+    display: flex;
+ }
+
+ .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+ }
+
+ .subtext,
+ a {
+    color: #E5E7EB;
+    font-size: 18px;
+ }
+
+ /* .information {
+ } */
+
+ /* .info {
+ } */
+
+ /* .cards {   
+ } */
+
+ /* .card-group {
+ } */
+
+ /* .card {
+ } */
+
+ /* .card-info {
+ } */
+
+ /* .quote {  
+ } */
+
+ /* .testimonial {
+ } */
+
+ /* .quoted {
+ } */
+
+ /* .action {
+ } */
+
+ /* .statement {
+ } */
+
+ /* .main {
+ } */
+
+ /* .sub {
+ } */
+
+.footer {
+   background-color: #1F2937;
+   color: #E5E7EB;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 25px;
+}
+
+ button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+ }
