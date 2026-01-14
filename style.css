@@ -88,8 +88,11 @@ button {
    flex-direction: column;
  }
 
- /* .info {
- } */
+ .info {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+ }
 
  .cards {
    display: flex;
@@ -112,8 +115,9 @@ button {
  /* .card-info {
  } */
 
- /* .quote {  
- } */
+ .quote {
+   background-color: #E5E7EB;  
+ }
 
  /* .testimonial {
  } */
