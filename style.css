@@ -86,6 +86,7 @@ button {
 
  .information {
    flex-direction: column;
+   gap: 45px;
  }
 
  .info {
@@ -96,7 +97,6 @@ button {
 
  .cards {
    display: flex;
-   gap: 15px;
  }
 
  .card-group {
@@ -112,21 +112,45 @@ button {
    height: 85px;
  }
 
- /* .card-info {
- } */
+ .card-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0px;
+ }
 
  .quote {
    background-color: #E5E7EB;  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
  }
 
- /* .testimonial {
- } */
+ .testimonial {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 300;
+ }
 
- /* .quoted {
- } */
+ .quoted {
+   color: #1F2937;
+ }
 
- /* .action {
- } */
+ .action {
+   background-color: #3882F6;
+   border-radius: 5px;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   padding: 20px;
+   color: #F9FAF8;
+   justify-content: space-around;
+   align-items: center;
+ }
 
  /* .statement {
  } */
