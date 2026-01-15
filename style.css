@@ -37,6 +37,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
  }
 
  .header {
@@ -62,6 +63,12 @@ button {
  .sign-up,
  .hero-image {
    flex: 1;
+ }
+
+ .hero-image {
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.5);
+  color: white;
  }
 
  .main-text {
@@ -103,6 +110,8 @@ button {
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding: 0px;
+   margin: 0px;
  }
 
  .card {
@@ -116,7 +125,9 @@ button {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   padding: 0px;
+   align-items: center;
+   text-align: center;
+   width: 125px;
  }
 
  .quote {
@@ -125,7 +136,7 @@ button {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 10px;
+   padding: 30px;
  }
 
  .testimonial {
